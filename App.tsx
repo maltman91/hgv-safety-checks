@@ -24,6 +24,7 @@ import { DAILY_CHECKLIST, SIX_WEEKLY_CHECKLIST } from './constants';
 import { analyzeDefect } from './services/geminiService';
 import { SignaturePad } from './components/SignaturePad';
 import { ReportView } from './components/ReportView';
+import { AdBanner } from './components/AdBanner';
 
 // --- Utility Functions ---
 
@@ -264,6 +265,9 @@ const Dashboard = ({
           </Card>
         </div>
 
+        {/* Advertisement */}
+        <AdBanner slotId="dashboard-main" />
+
         {/* Recent Activity */}
         <div className="pb-8">
           <h2 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3 px-1">Recent Inspections</h2>
@@ -373,6 +377,9 @@ const SettingsView = ({
             </div>
           </Card>
         </section>
+
+        {/* Advertisement */}
+        <AdBanner slotId="settings-footer" />
       </main>
     </div>
   );
