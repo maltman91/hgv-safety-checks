@@ -1,0 +1,7 @@
+{
+  "name": "HGV Safety Checks",
+  "description": "Professional HGV inspection tool for Daily Walkaround and 6-Weekly PMI checks. Features AI-powered defect analysis, digital signatures, and PDF report generation for Operator compliance.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
